@@ -1,0 +1,12 @@
+.associated-records .typeahead-container {
+    padding-bottom: 10px;
+}
+
+/*
+    Fix for datepicker hidding behind modals.
+    We can use zIndexOffset option, once cakephp-adminlte-theme plugin updates to the latest version of the library
+    @link http://bootstrap-datepicker.readthedocs.io/en/stable/options.html#zindexoffset
+*/
+.datepicker {
+    z-index: 1060 !important;
+}

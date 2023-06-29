@@ -1,0 +1,6 @@
+FIELD NAME,FIELD TYPE,REQUIRED,NOT SEARCHABLE,UNIQUE
+id,uuid
+created,datetime
+modified,datetime
+created_by,related(Users)
+modified_by,related(Users)
