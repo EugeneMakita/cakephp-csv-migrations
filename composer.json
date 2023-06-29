@@ -1,5 +1,5 @@
 {
-    "name": "qobo/cakephp-csv-migrations",
+    "name": "eugenec138/cakephp-csv-migrations",
     "description": "CSV Migrations plugin for CakePHP",
     "type": "cakephp-plugin",
 	"license": "MIT",
@@ -13,8 +13,8 @@
 	],
     "require": {
         "eluceo/ical": "^0.11.0",
-        "qobo/cakephp-translations": "^7.0",
-        "qobo/cakephp-utils": "^6.0",
+        "eugenec138/cakephp-translations": "^1.0.4",
+        "eugenec138/cakephp-utils": "^1.0.3",
         "symfony/expression-language": "^3.1"
     },
     "require-dev": {
